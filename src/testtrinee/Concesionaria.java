@@ -25,11 +25,13 @@ public class Concesionaria {
     
     public void mostrarMasCaro() {
         Collections.sort(listaVehiculos);
-        System.out.println("Vehículo más caro: " + listaVehiculos.get(0).marca + " " + listaVehiculos.get(0).modelo);
+        System.out.println("Vehículo más caro: " +
+                listaVehiculos.get(0).marca + " " + listaVehiculos.get(0).modelo);
     }
     
     public void mostrarMasBarato() {
-        System.out.println("Vehículo más barato: " + listaVehiculos.get(listaVehiculos.size() - 1).marca +
+        System.out.println("Vehículo más barato: " +
+                listaVehiculos.get(listaVehiculos.size() - 1).marca +
                 " " + listaVehiculos.get(listaVehiculos.size() - 1).modelo);
     }
     
